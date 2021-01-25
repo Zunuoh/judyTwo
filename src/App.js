@@ -3,13 +3,14 @@ import "./App.css";
 import HomeScreen from '../src/pages/HomeScreen';
 import SigninScreen from '../src/pages/SigninScreen';
 import TableScreen from '../src/pages/Table';
-// import BlogOne from '../src/pages/blogs/blogOne';
+import TeamScreen from '../src/pages/TeamScreen';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 
 const App = () =>{
   return(
-    <HomeScreen/>
+    <TeamScreen/>
+    // <HomeScreen/>
     // <TableScreen/>
     // <SigninScreen/>
     // <BrowserRouter>
