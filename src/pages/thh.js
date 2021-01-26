@@ -1,11 +1,10 @@
 import React from 'react';
 import TableScreen from '../pages/Table';
-import TeamScreen from "../pages/TeamScreen";
-import ThhScreen from '../pages/thh';
+import TeamScreen from '../pages/TeamScreen';
 import {Link} from 'react-router-dom';
 import  FooterScreen from '../pages/Footer';
 
-const HomeScreen = () =>{
+const ThhScreen = () =>{
     return(
 <div class="h-screen flex overflow-hidden bg-gray-100">
  
@@ -224,7 +223,7 @@ const HomeScreen = () =>{
         <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         
           <div class="py-4">
-            <TableScreen/>
+            <TeamScreen/>
           </div>
         
         </div>
@@ -240,4 +239,4 @@ const HomeScreen = () =>{
     )
 }
 
-export default HomeScreen;
+export default ThhScreen;
