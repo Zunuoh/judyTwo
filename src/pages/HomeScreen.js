@@ -1,7 +1,7 @@
 import React from 'react';
 import TableScreen from '../pages/Table';
-import TeamScreen from "../pages/TeamScreen";
-import ThhScreen from '../pages/thh';
+// import TeamScreen from "../pages/TeamScreen";
+// import ThhScreen from '../pages/thh';
 import {Link} from 'react-router-dom';
 import  FooterScreen from '../pages/Footer';
 
@@ -40,7 +40,7 @@ const HomeScreen = () =>{
               Dashboard
             </a>
            
-           <Link to ="/third">
+           <Link to="/third">
            <a href="#" class="text-indigo-100 hover:bg-indigo-600 group flex items-center px-2 py-2 text-base font-medium rounded-md">
              
               <svg class="mr-4 h-6 w-6 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -113,7 +113,7 @@ const HomeScreen = () =>{
               Dashboard
             </a>
 
-            <Link to ="/third">
+            <Link to="/third">
            <a href="#" class="text-indigo-100 hover:bg-indigo-600 group flex items-center px-2 py-2 text-base font-medium rounded-md">
              
               <svg class="mr-4 h-6 w-6 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
